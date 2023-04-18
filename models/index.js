@@ -9,3 +9,8 @@ Product.belongsTo(Category, {
   foreignKey: 'category_id',
   onDelete: 'cascade'
 });
+
+// Create association between Category and Product models
+Category.hasMany(Product, {
+  foreignKey: 'category_id',
+});
