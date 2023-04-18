@@ -21,3 +21,18 @@ Product.belongsToMany(Tag, {
   through: ProductTag,
   foreignKey: 'product_id',
 });
+
+// Create a many-to-many association between Tag 
+// and Product models using ProductTag as the junction table
+Tag.belongsToMany(Product, {
+  through: ProductTag,
+  foreignKey: 'tag_id',
+});
+
+// Export all the models to be used in other parts of the application
+module.exports = {
+  Category,
+  Product,
+  Tag,
+  ProductTag,
+};
