@@ -7,7 +7,8 @@ const sequelize = require('../config/connection');
 // Create a Tag class that extends Sequelize Model
 class Tag extends Model {}
 
-// Initialize Tag model with its attributes and configuration options
+// Initialize Tag model with its attributes and 
+// configuration options
 Tag.init(
   {
     id: {
