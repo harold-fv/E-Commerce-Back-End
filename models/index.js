@@ -14,3 +14,10 @@ Product.belongsTo(Category, {
 Category.hasMany(Product, {
   foreignKey: 'category_id',
 });
+
+// Create a many-to-many association between Product 
+// and Tag models using ProductTag as the junction table
+Product.belongsToMany(Tag, {
+  through: ProductTag,
+  foreignKey: 'product_id',
+});
