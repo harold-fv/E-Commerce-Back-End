@@ -67,15 +67,15 @@ After you install the package ,from the command line type node server.js to run 
 
 # Walkthrough Video
 
-https://github.com/harold-fv/E-Commerce-Back-End/blob/main/E-Commerce-Back-End-Video.gif
-
 This is the Video walkthrough of the application.
-  
+
+https://github.com/harold-fv/E-Commerce-Back-End/blob/main/E-Commerce-Back-End-Video.gif
+ 
 
 Overall, the E-Commerce-Back-End application is useful tool to test the API POST,PUT,GET and Delete  using the insomia.
-=======
-E-Commerce Back End
 
-https://github.com/harold-fv/E-Commerce-Back-End/blob/main/E-Commerce-Back-End-Video.gif
+
+
+
 
 >>>>>>> ffb66e49e71dd9280ec3e8ff735e742aaf66d29a
