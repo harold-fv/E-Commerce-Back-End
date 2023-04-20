@@ -1,4 +1,5 @@
 # E-Commerce-Back-End
+<<<<<<< HEAD
 
 # Description
 This application called E-Commerce-Back-End provides a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
@@ -72,3 +73,9 @@ This is the Video walkthrough of the application.
   
 
 Overall, the E-Commerce-Back-End application is useful tool to test the API POST,PUT,GET and Delete  using the insomia.
+=======
+E-Commerce Back End
+
+https://github.com/harold-fv/E-Commerce-Back-End/blob/main/E-Commerce-Back-End-Video.gif
+
+>>>>>>> ffb66e49e71dd9280ec3e8ff735e742aaf66d29a
